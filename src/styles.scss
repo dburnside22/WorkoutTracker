@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./variables.scss";
+
+body {
+    background-color: $main-dark-color;
+}
+
+button {
+    background-color: $main-light-color;
+    color: $main-dark-color;
+    border-radius: 6px;
+}
+
+input {
+    background: $input-color;
+}
