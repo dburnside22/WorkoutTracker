@@ -3,6 +3,7 @@
 
 body {
     background-color: $main-dark-color;
+    color: $main-light-color;
 }
 
 button {
@@ -13,4 +14,5 @@ button {
 
 input {
     background: $input-color;
+    border-radius: 9px;
 }
