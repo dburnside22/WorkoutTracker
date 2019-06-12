@@ -1,4 +1,4 @@
-<div class="navigation">
+<div *ngIf="router.url != '/'" class="navigation">
   <div (click)="toggleNavigation()">
       <span></span>
       <span></span>
@@ -7,13 +7,16 @@
 </div>
 
 <div class="navigation-clicked" *ngIf="navClicked">
-  <span></span>
-  <span></span>
+  <div (click)="toggleNavigation()">
+    <span></span>
+    <span></span>
+  </div>
+  
   <nav>
-    <li class="active">Home</li>
+    <li [routerLink]="['/home']" (click)="toggleNavigation()">Home</li>
     <li>History</li>
     <li>Calendar</li>
-    <li>Logout</li>
+    <li [routerLink]="['/']" (click)="toggleNavigation()">Logout</li>
   </nav>
   <div class='dark-overlay'></div>
 </div>
