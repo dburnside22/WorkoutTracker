@@ -1,3 +1,19 @@
-<p>
-  navigation works!
-</p>
+<div class="navigation">
+  <div (click)="toggleNavigation()">
+      <span></span>
+      <span></span>
+      <span></span>
+  </div> 
+</div>
+
+<div class="navigation-clicked" *ngIf="navClicked">
+  <span></span>
+  <span></span>
+  <nav>
+    <li class="active">Home</li>
+    <li>History</li>
+    <li>Calendar</li>
+    <li>Logout</li>
+  </nav>
+  <div class='dark-overlay'></div>
+</div>
