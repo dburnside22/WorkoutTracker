@@ -1,3 +1,18 @@
-<p>
-  registration works!
-</p>
+<form class='login-form'>
+    <h1 class="header-logo"><img src='../../assets/logo.svg'></h1>
+    <div class="username">
+      <label for="username">Username</label>
+      <input type="text" name="username">
+    </div>
+    <div class="password">
+      <label for="password">Password</label>
+      <input type="password" name="password">
+    </div>
+    <div class="confirmPassword">
+        <label for="password">Confirm Password</label>
+        <input type="password" name="password">
+    </div>
+    <div class="buttons">
+      <button class="button2" [routerLink]="['/']">Sign Up</button>
+    </div>
+  </form>
