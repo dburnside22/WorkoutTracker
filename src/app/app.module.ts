@@ -8,6 +8,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { CalendarViewComponent } from './calendar-view/calendar-view.component';
 import { HistoryComponent } from './history/history.component';
+import { RegistrationComponent } from './registration/registration.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HistoryComponent } from './history/history.component';
     NavigationComponent,
     LoginPageComponent,
     CalendarViewComponent,
-    HistoryComponent
+    HistoryComponent,
+    RegistrationComponent
   ],
   imports: [
     BrowserModule,
