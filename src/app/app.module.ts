@@ -7,6 +7,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { CalendarViewComponent } from './calendar-view/calendar-view.component';
+import { HistoryComponent } from './history/history.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CalendarViewComponent } from './calendar-view/calendar-view.component';
     LandingPageComponent,
     NavigationComponent,
     LoginPageComponent,
-    CalendarViewComponent
+    CalendarViewComponent,
+    HistoryComponent
   ],
   imports: [
     BrowserModule,
