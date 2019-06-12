@@ -11,6 +11,7 @@
 .header-logo {
     grid-area: h;
     text-align: center;
+    margin-top: 110px;
 }
 
 .username {
@@ -53,7 +54,7 @@ button {
         display: block;
     }
     text-align: center;
-    margin: 10px 0;
+    margin: 20px 0;
     font-size: 25px;
 
     input {
@@ -71,10 +72,6 @@ button {
             '. u u u .'
             '. p p p .'
             '. . b . .';
-    }
-
-    .header-logo {
-        margin-top: 140px;
     }
 }
 
