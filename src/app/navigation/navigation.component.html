@@ -14,8 +14,8 @@
   
   <nav>
     <li [routerLink]="['/home']" (click)="toggleNavigation()">Home</li>
-    <li>History</li>
-    <li>Calendar</li>
+    <li [routerLink]="['/history']" (click)="toggleNavigation()">History</li>
+    <li [routerLink]="['/calendar']" (click)="toggleNavigation()">Calendar</li>
     <li [routerLink]="['/']" (click)="toggleNavigation()">Logout</li>
   </nav>
   <div class='dark-overlay'></div>
